@@ -11,6 +11,7 @@ const AboutPage = () => {
 
   const skillRef = useRef<HTMLDivElement>(null)
   // const isSkillRefInView = useInView(skillRef, {once:true});
+  //100px after viewing element
   const isSkillRefInView = useInView(skillRef, { margin: '-100px' })
 
   const experienceRef = useRef<HTMLDivElement>(null)
